@@ -76,7 +76,7 @@ Provide these details to create the QnA Maker service:
 ![](./labimages/image14a.PNG "image14")
 
 
-1. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
+2. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
 
 
 ![](./labimages/image15a.PNG "image15")
@@ -90,9 +90,9 @@ Provide these details to create the QnA Maker service:
 
 
 
-1. Select your Azure Directory ID, subscription name, and the name of the new QnA service you created earlier in the portal. (e.g. student200)
+4. Select your Azure Directory ID, subscription name, and the name of the new QnA service you created earlier in the portal. (e.g. student200)
 
-1.   Give your knowledge base a name under STEP 3. We&#39;ll use the Ocean FAQ, so you can name it OceanFAQ.
+5.   Give your knowledge base a name under STEP 3. We&#39;ll use the Ocean FAQ, so you can name it OceanFAQ.
 
 ![](./labimages/image17.PNG "image17")
 
