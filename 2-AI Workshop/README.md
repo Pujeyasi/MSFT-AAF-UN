@@ -32,37 +32,37 @@ Let's create a QnA Maker knowledge base (KB).
 
 Provide these details to create the QnA Maker service:
 
-  a. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you&#39;ll be using it later.
-  b. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
-  c. Select the **S0** pricing tier for the service.
+1. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you'll be using it later.
+2. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
+3. Select the **S0** pricing tier for the service.
 
 ![](./labimages/image7.png "image7")
 
-4. d)Select a location for the service, which should be the same region as the bot service, and near your physical location.
-5. e)Select the resource group from the drop down. (e.g. student200)
-6. f)Select **B (15 Indexes)**, the free tier, for the search pricing
+4. Select a location for the service, which should be the same region as the bot service, and near your physical location.
+5. Select the resource group from the drop down. (e.g. student200)
+6. Select **B (15 Indexes)**, the free tier, for the search pricing
 
 ![](./labimages/image8.png "image8")
 
-7. g)For the search location, select the location **East US**.
-8. h)Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
+7. For the search location, select the location **East US**.
+8. Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
 
 ![](./labimages/image9.PNG "image9")
 
-9. i)Select the location for the website, which should match the location you used earlier. Select **East US**
-10. j)You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
+9. Select the location for the website, which should match the location you used earlier. Select **East US**
+10. You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
 
 ![](./labimages/image10.PMG "image10")
 
-11. k)Select **Create**. (at the bottom of the page)
+11. Select **Create**. (at the bottom of the page)
 
 ![](./labimages/image11.png "image11")
 
-12. l)After a brief deployment process, your resource will be created for the service.
+12. After a brief deployment process, your resource will be created for the service.
 
 ![](./labimages/image12.png "image12")
 
-13. m)Wait till your deployment is complete
+13. Wait till your deployment is complete
 
 ![](./labimages/image13.png "image13")
 
@@ -119,11 +119,11 @@ We need some data for our KB. We&#39;ll use an existing FAQ as a sample
 
 ![](./labimages/image20.PNG "image20")
 
-The extraction process takes a few minutes to read the document and identify questions and answers.
+Please note that the extraction process takes a few minutes to read the document and identify questions and answers.
 
 After QnA Maker successfully creates the knowledge base, the **Knowledge base** page opens. You can edit the contents of the knowledge base on this page.
 
-After a short time, your KB will be created, and the Edit page will load.
+After a short time, your Knoledge Base will be created, and the Edit page will load.
 
 ## **Add a new question and answer set**
 
@@ -176,18 +176,21 @@ In the upper right, select **Save and train** to save your edits and train the Q
 - Arctic
 - Southern
 
-![](./labimages/image25.png "image25")
+![](./labimages/image25a.png "image25")
 
 6. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
 7. Select Test again to close the Test panel.
 8. Optional: Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
-9. After you have played with this for a while, select Save and Retrain to update the model.
+
+![](./labimages/image25a.PNG "image25a")
+
+9.  After you have played with this for a while, select Save and Retrain to update the model.
 10. Don&#39;t worry, you can always go back and make adjustments by deleting or adding new pairs.
 11. Remember this is AI, always ready for updates.
 
  ![](./labimages/image26.PNG "image26")
 
-**Publish a knowledge base**
+## **Publish a knowledge base**
 
 Now that you&#39;ve created a QnA knowledge base, it&#39;s time to publish it so you can access it from a client application.
 
@@ -211,7 +214,7 @@ Optional: If you need to, you can select **Edit Service** to go back to the KB a
 
 
 
-**Integrate QnA with a bot**
+## **Integrate QnA with a bot**
 
 Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time to learn how to integrate it with a bot. In this exercise, you&#39;ll create a chatbot on the Azure to integrate with the QnA Maker knowledge base you created earlier.
 
