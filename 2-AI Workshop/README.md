@@ -11,22 +11,22 @@ Let&#39;s create a QnA Maker knowledge base (KB).
  
 Unless you already have a knowledge base (KB), the portal will point out that you don&#39;t have any.
 
-![](./labimages/image2.png "image2")
+![](./labimages/image2.PNG "image2")
 
 ## **Creating a knowledge base and QnA Service**
 
 1. In the menu at the top of the portal, select **Create a knowledge base**.
 
-![](./labimages/image4.png "image4")
+![](./labimages/image4.PNG "image4")
 
 
 1. Select **Create a QnA service**. Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier. You will create the QnA Maker service and the associated Azure app service that will host it in this portal.
 
-![](./labimages/image5.png "image5")
+![](./labimages/image5.PNG "image5")
 
 1. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
-![](./labimages/image6.png "image6")
+![](./labimages/image6.PNG "image6")
 
 ## **Provide the QnA Maker service details**
 
@@ -47,12 +47,12 @@ Provide these details to create the QnA Maker service:
 1. g)For the search location, select the location **East US**.
 2. h)Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
 
-![](./labimages/image9.png "image9")
+![](./labimages/image9.PNG "image9")
 
 1. i)Select the location for the website, which should match the location you used earlier. Select **East US**
 2. j)You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
 
-![](./labimages/image10.png "image10")
+![](./labimages/image10.PMG "image10")
 
 1. k)Select **Create**. (at the bottom of the page)
 
@@ -73,11 +73,11 @@ Provide these details to create the QnA Maker service:
 1. Return to the QnA Maker web portal tab  ( [ai](https://qnamaker.ai/)) and refresh the page.
 
 
-This is where Picture 14 goes
+
 ![](./labimages/images14a.PNG "image14")
 
 
-2. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
+1. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
 
 
 ![](./labimages/image15a.PNG "image15")
@@ -95,7 +95,7 @@ This is where Picture 14 goes
 
 1.   Give your knowledge base a name under STEP 3. We&#39;ll use the Ocean FAQ, so you can name it OceanFAQ.
 
-![](./labimages/image17.png "image17")
+![](./labimages/image17.PNG "image17")
 
 
 
@@ -109,16 +109,16 @@ We need some data for our KB. We&#39;ll use an existing FAQ as a sample
 
 1. Select + Add URL.
 
-![](./labimages/image18.png "image18")
+![](./labimages/image18.PNG "image18")
 
 1. Once you click on + Add URL, URL will be added as shown below.
 
-![](./labimages/image19.png "image19")
+![](./labimages/image19.PNG "image19")
 
 1. Add _ **Enthusiastic** _ **Chit-chat** to your KB.
 2. Select **Create your KB**.
 
-![](./labimages/image20.png "image20")
+![](./labimages/image20.PNG "image20")
 
 The extraction process takes a few minutes to read the document and identify questions and answers.
 
@@ -130,7 +130,7 @@ After a short time, your KB will be created, and the Edit page will load.
 
 1. In the QnA Maker portal, on the **Edit** page, select **+ Add QnA pair** from the context toolbar.
 
-![](./labimages/image21.png "image21")
+![](./labimages/image21.PNG "image21")
 
 1. Add the following **question** :
 
@@ -140,7 +140,7 @@ What are the 5 major oceans?
 
 \* Pacific \n\* Indian \n\* Atlantic \n\* Arctic \n\* Southern
 
-![](./labimages/image22.png "image22")
+![](./labimages/image22.PNG "image22")
 
 Just for your knowledge: The markdown symbol, \*, is used for bullet points. The \n is used for a new line.
 
@@ -156,13 +156,13 @@ Just for your knowledge: The **Edit** page shows the markdown. When you use the 
 
 In the upper right, select **Save and train** to save your edits and train the QnA Maker model. Edits aren&#39;t kept unless they&#39;re saved.
 
-![](./labimages/image23.png "image23")
+![](./labimages/image23.PNG "image23")
 
 ## **Test your knowledge base**
 
 1. To get an idea of how a bot might respond to questions, select **Test** in the upper-right corner.
 
-![](./labimages/image24.png "image24")
+![](./labimages/image24.PNG "image24")
 
 
 
@@ -186,7 +186,7 @@ In the upper right, select **Save and train** to save your edits and train the Q
 5. Don&#39;t worry, you can always go back and make adjustments by deleting or adding new pairs.
 6. Remember this is AI, always ready for updates.
 
- ![](./labimages/image26.png "image26")
+ ![](./labimages/image26.PNG "image26")
 
 **Publish a knowledge base**
 
@@ -194,7 +194,7 @@ Now that you&#39;ve created a QnA knowledge base, it&#39;s time to publish it so
 
 1. On the QnA Maker Knowledge base page, where you were testing in the previous exercise, select **PUBLISH** in the menu at the top of the page.
 
-![](./labimages/image27.png "image27")
+![](./labimages/image27.PNG "image27")
 
 
 
@@ -219,7 +219,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 1. In the QnA Maker portal, go to the Publish page, and publish your knowledge base, if it is not already published.
 2. Select Create Bot.
 
-![](./labimages/image29.png "image29")
+![](./labimages/image29.PNG "image29")
 
 
 
@@ -227,7 +227,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 
-![](./labimages/image30.png "image30")
+![](./labimages/image30.PNG "image30")
 
 
 
@@ -260,7 +260,7 @@ j. Click **Create**. In a few minutes, your bot should be created. (Sample Scree
 
 
 
-![](./labimages/image33.png "image33")
+![](./labimages/image33.PNG "image33")
 
 
 
@@ -269,7 +269,7 @@ j. Click **Create**. In a few minutes, your bot should be created. (Sample Scree
 1. Click on the bell shared icon on the upper right-hand corner – you will see the notifications. When the deployment is complete, you will see the following screen.
 
 
-![](./labimages/image34.png "image34")
+![](./labimages/image34.PNG "image34")
 
 
 
@@ -278,66 +278,66 @@ j. Click **Create**. In a few minutes, your bot should be created. (Sample Scree
 1. In the Azure portal, open the new bot resource from the notification. You can click on &quot;Go to resources&quot;
 
 
-![](./labimages/image35.png "image35")
+![](./labimages/image35.PNG "image35")
 
 
 
 1. Under **Bot Management** , select **Test in Web Chat**.
 
 
-![](./labimages/image36.png "image36")
+![](./labimages/image36.PNG "image36")
 
 At the chat prompt of **Type your message** , enter: Major ocrans
 
 
 
 
-![](./labimages/image36a.png "image36a")
+![](./labimages/image36a.PNG "image36a")
 
 1. The chat bot responds with an answer from your knowledge base.
 2. Notice the spelling mistake in oceans, your bot is smart enough to understand that.
 3. Did you notice you did not have to type the entire question?
 
 
-![](./labimages/image37.png "image37")
+![](./labimages/image37.PNG "image37")
 
 1. Under **Bot Management** , select **Channels**.
 2. Click on Edit in Webchat
 
 
-![](./labimages/image38.png "image38")
+![](./labimages/image38.PNG "image38")
 
 1. Click on &quot;Show&quot; under Secret Keys
 
 
-![](./labimages/image38a.png "image38a")
+![](./labimages/image38a.PNG "image38a")
 
 
 1. Copy **Embed code** in a separate notepad.
 
 
-![](./labimages/image39.png "image39")
+![](./labimages/image39.PNG "image39")
 
-![](./labimages/image40.png "image40")
+![](./labimages/image40.PNG "image40")
 
 
 
 1. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
 
-![](./labimages/image41.png "image41")
+![](./labimages/image41.PNG "image41")
 
 
 
 1. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
 
-![](./labimages/image42.png "image42")
+![](./labimages/image42.PNG "image42")
 
 1. Double click on the saved file and it will open in the browser. This is your ChatBot,
 
-![](./labimages/image43.png "image43")
+![](./labimages/image43.PNG "image43")
 
 1. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
 2. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
 3. Go to My Knowledge base, select **OceanFAQ**
 
-![](./labimages/image44.png "image44")
+![](./labimages/image44.PNG "image44")
