@@ -66,7 +66,9 @@ Provide these details to create the QnA Maker service:
 
 ![](./labimages/image13.png "image13")
 
-![](./labimages/image14.png "image14")
+
+![](./labimages/images14.png "image14")
+
 
 ## **Connect the QnA Maker service to the knowledge base**
 
