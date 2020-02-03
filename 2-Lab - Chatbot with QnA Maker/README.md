@@ -7,7 +7,7 @@ Let&#39;s create a QnA Maker knowledge base (KB).
 1. Go to the [QnA Maker portal](https://www.qnamaker.ai/?).  ([ai](https://qnamaker.ai/))
 2. Select **Sign in** in the upper-right corner and sign in with your Azure credentials.
 
-![](MSFT-AAF-UN/images/image1.png)
+![](./images/image1.png)
  
 Unless you already have a knowledge base (KB), the portal will point out that you don&#39;t have any.
 
