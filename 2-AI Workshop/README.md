@@ -1,30 +1,30 @@
 # **Lab - Build an FAQ chatbot with QnA Maker and Azure Bot Service**
 
-**Create a QnA knowledge base**
+## **Create a QnA knowledge base**
 
-Let&#39;s create a QnA Maker knowledge base (KB).
+Let's create a QnA Maker knowledge base (KB).
 
 1. Go to the [QnA Maker portal](https://www.qnamaker.ai/?).  ([ai](https://qnamaker.ai/))
 2. Select **Sign in** in the upper-right corner and sign in with your Azure credentials.
 
 ![](./labimages/image1.png "image1")
  
-Unless you already have a knowledge base (KB), the portal will point out that you don&#39;t have any.
+3. Unless you already have a knowledge base (KB), the portal will point out that you don&#39;t have any.
 
 ![](./labimages/image2.PNG "image2")
 
 ## **Creating a knowledge base and QnA Service**
 
-1. In the menu at the top of the portal, select **Create a knowledge base**.
+4. In the menu at the top of the portal, select **Create a knowledge base**.
 
 ![](./labimages/image4.PNG "image4")
 
 
-2. Select **Create a QnA service**. Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier. You will create the QnA Maker service and the associated Azure app service that will host it in this portal.
+5. Select **Create a QnA service**. Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier. You will create the QnA Maker service and the associated Azure app service that will host it in this portal.
 
 ![](./labimages/image5.PNG "image5")
 
-3. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
+6. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
 ![](./labimages/image6.PNG "image6")
 
@@ -32,9 +32,9 @@ Unless you already have a knowledge base (KB), the portal will point out that yo
 
 Provide these details to create the QnA Maker service:
 
-  1. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you&#39;ll be using it later.
-  2. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
-  3. Select the **S0** pricing tier for the service.
+  a. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you&#39;ll be using it later.
+  b. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
+  c. Select the **S0** pricing tier for the service.
 
 ![](./labimages/image7.png "image7")
 
