@@ -252,13 +252,10 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
  - Turn the Application Insights Off
 
 
-
 …………………………..Picture32..better pic
 
 
-
-2. Click **Create**. In a few minutes, your bot should be created. (Sample Screen below)
-
+- Click **Create**. In a few minutes, your bot should be created. (Sample Screen below)
 
 
 ![](./labimages/image33.PNG "image33")
@@ -288,33 +285,32 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 ![](./labimages/image36.PNG "image36")
 
-At the chat prompt of **Type your message** , enter: Major ocrans
-
+4. At the chat prompt of **Type your message** , enter: Major ocrans
 
 
 
 ![](./labimages/image36a.PNG "image36a")
 
-4. The chat bot responds with an answer from your knowledge base.
-5. Notice the spelling mistake in oceans, your bot is smart enough to understand that.
-6. Did you notice you did not have to type the entire question?
+5. The chat bot responds with an answer from your knowledge base.
+6. Notice the spelling mistake in oceans, your bot is smart enough to understand that.
+7. Did you notice you did not have to type the entire question?
 
 
 ![](./labimages/image37.PNG "image37")
 
-7. Under **Bot Management** , select **Channels**.
-8. Click on Edit in Webchat
+8. Under **Bot Management** , select **Channels**.
+9. Click on Edit in Webchat
 
 
 ![](./labimages/image38.PNG "image38")
 
-9. Click on &quot;Show&quot; under Secret Keys
+10. Click on &quot;Show&quot; under Secret Keys
 
 
 ![](./labimages/image38a.PNG "image38a")
 
 
-10. Copy **Embed code** in a separate notepad.
+11. Copy **Embed code** in a separate notepad.
 
 
 ![](./labimages/image39.PNG "image39")
@@ -323,22 +319,22 @@ At the chat prompt of **Type your message** , enter: Major ocrans
 
 
 
-11. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
+12. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
 
 ![](./labimages/image41.PNG "image41")
 
 
 
-12. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
+13. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
 
 ![](./labimages/image42.PNG "image42")
 
-13. Double click on the saved file and it will open in the browser. This is your ChatBot,
+14. Double click on the saved file and it will open in the browser. This is your ChatBot,
 
 ![](./labimages/image43.PNG "image43")
 
-14. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
-15. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
-16. Go to My Knowledge base, select **OceanFAQ**
+15. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
+16. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
+17. Go to My Knowledge base, select **OceanFAQ**
 
 ![](./labimages/image44.PNG "image44")
