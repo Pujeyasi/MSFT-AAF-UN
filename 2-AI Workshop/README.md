@@ -81,7 +81,7 @@ Provide these details to create the QnA Maker service:
 2. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
 
 
-![](./labimages/image15.png "image15")
+![](./labimages/image15a.png "image15")
 
 
 
