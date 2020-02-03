@@ -73,8 +73,7 @@ Provide these details to create the QnA Maker service:
 1. Return to the QnA Maker web portal tab  ( [ai](https://qnamaker.ai/)) and refresh the page.
 
 
-
-![](./labimages/images14a.PNG "image14")
+![](./labimages/image14a.PNG "image14")
 
 
 1. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
