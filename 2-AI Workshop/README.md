@@ -20,11 +20,11 @@ Unless you already have a knowledge base (KB), the portal will point out that yo
 ![](./labimages/image4.PNG "image4")
 
 
-1. Select **Create a QnA service**. Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier. You will create the QnA Maker service and the associated Azure app service that will host it in this portal.
+2. Select **Create a QnA service**. Selecting this button takes you to the Azure portal and signs you in with the credentials you used earlier. You will create the QnA Maker service and the associated Azure app service that will host it in this portal.
 
 ![](./labimages/image5.PNG "image5")
 
-1. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
+3. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
 ![](./labimages/image6.PNG "image6")
 
@@ -38,31 +38,31 @@ Provide these details to create the QnA Maker service:
 
 ![](./labimages/image7.png "image7")
 
-1. d)Select a location for the service, which should be the same region as the bot service, and near your physical location.
-2. e)Select the resource group from the drop down. (e.g. student200)
-3. f)Select **B (15 Indexes)**, the free tier, for the search pricing
+4. d)Select a location for the service, which should be the same region as the bot service, and near your physical location.
+5. e)Select the resource group from the drop down. (e.g. student200)
+6. f)Select **B (15 Indexes)**, the free tier, for the search pricing
 
 ![](./labimages/image8.png "image8")
 
-1. g)For the search location, select the location **East US**.
-2. h)Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
+7. g)For the search location, select the location **East US**.
+8. h)Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
 
 ![](./labimages/image9.PNG "image9")
 
-1. i)Select the location for the website, which should match the location you used earlier. Select **East US**
-2. j)You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
+9. i)Select the location for the website, which should match the location you used earlier. Select **East US**
+10. j)You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
 
 ![](./labimages/image10.PMG "image10")
 
-1. k)Select **Create**. (at the bottom of the page)
+11. k)Select **Create**. (at the bottom of the page)
 
 ![](./labimages/image11.png "image11")
 
-1. l)After a brief deployment process, your resource will be created for the service.
+12. l)After a brief deployment process, your resource will be created for the service.
 
 ![](./labimages/image12.png "image12")
 
-1. m)Wait till your deployment is complete
+13. m)Wait till your deployment is complete
 
 ![](./labimages/image13.png "image13")
 
@@ -106,16 +106,16 @@ We need some data for our KB. We&#39;ll use an existing FAQ as a sample
 
 [http://www.faqkids.com/ocean](http://www.faqkids.com/ocean)
 
-1. Select + Add URL.
+2. Select + Add URL.
 
 ![](./labimages/image18.PNG "image18")
 
-1. Once you click on + Add URL, URL will be added as shown below.
+3. Once you click on + Add URL, URL will be added as shown below.
 
 ![](./labimages/image19.PNG "image19")
 
-1. Add _ **Enthusiastic** _ **Chit-chat** to your KB.
-2. Select **Create your KB**.
+4. Add _ **Enthusiastic** _ **Chit-chat** to your KB.
+5. Select **Create your KB**.
 
 ![](./labimages/image20.PNG "image20")
 
@@ -131,11 +131,11 @@ After a short time, your KB will be created, and the Edit page will load.
 
 ![](./labimages/image21.PNG "image21")
 
-1. Add the following **question** :
+2. Add the following **question** :
 
 What are the 5 major oceans?
 
-1. Add the **answer** formatted with _markdown_:
+3. Add the **answer** formatted with _markdown_:
 
 \* Pacific \n\* Indian \n\* Atlantic \n\* Arctic \n\* Southern
 
@@ -165,10 +165,10 @@ In the upper right, select **Save and train** to save your edits and train the Q
 
 
 
-1. A test panel opens, ready for a question.
-2. Enter **Hello** and select the Enter key. QnA will respond with &quot;Hello.&quot; Or &quot;Hi&quot;.
-3. Enter **How are you?** and select Enter. QnA will respond with a message.
-4. Enter **Major oceans.** QnA will respond with a list of oceans.
+2. A test panel opens, ready for a question.
+3. Enter **Hello** and select the Enter key. QnA will respond with &quot;Hello.&quot; Or &quot;Hi&quot;.
+4. Enter **How are you?** and select Enter. QnA will respond with a message.
+5. Enter **Major oceans.** QnA will respond with a list of oceans.
 
 - Pacific
 - Indian
@@ -178,12 +178,12 @@ In the upper right, select **Save and train** to save your edits and train the Q
 
 ![](./labimages/image25.png "image25")
 
-1. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
-2. Select Test again to close the Test panel.
-3. Optional: Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
-4. After you have played with this for a while, select Save and Retrain to update the model.
-5. Don&#39;t worry, you can always go back and make adjustments by deleting or adding new pairs.
-6. Remember this is AI, always ready for updates.
+6. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
+7. Select Test again to close the Test panel.
+8. Optional: Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
+9. After you have played with this for a while, select Save and Retrain to update the model.
+10. Don&#39;t worry, you can always go back and make adjustments by deleting or adding new pairs.
+11. Remember this is AI, always ready for updates.
 
  ![](./labimages/image26.PNG "image26")
 
@@ -197,15 +197,15 @@ Now that you&#39;ve created a QnA knowledge base, it&#39;s time to publish it so
 
 
 
-1. Read the message on the next page. It indicates that your KB will move from test to production. It also points out that your KB will be available as an endpoint that you can use in apps and bots.
-2. Select **Publish**.
-3. After a short time, a success message will appear (if no errors occur).
-4. Note the URL information that appears. You can use the information provided to test the KB with Postman or curl.
-5. Copy and paste the Postman code(shown below) on notepad app on your desktop – name it &quot;BotPostman&quot;.
+2. Read the message on the next page. It indicates that your KB will move from test to production. It also points out that your KB will be available as an endpoint that you can use in apps and bots.
+3. Select **Publish**.
+4. After a short time, a success message will appear (if no errors occur).
+5. Note the URL information that appears. You can use the information provided to test the KB with Postman or curl.
+6. Copy and paste the Postman code(shown below) on notepad app on your desktop – name it &quot;BotPostman&quot;.
 
 ![](./labimages/image28.png "image28")
 
-1. Close notepad app
+7. Close notepad app
 
 Optional: If you need to, you can select **Edit Service** to go back to the KB and make edits.
 
@@ -222,7 +222,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 
-1. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
+3. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
 
 
@@ -230,13 +230,13 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 
-1. You should see the following screen, which is the Azure Portal.
+4. You should see the following screen, which is the Azure Portal.
 
 ![](./labimages/image31.png "image31")
 
 
 
-1. Enter the settings to create the bot: (Most of the options will auto-populate)
+5. Enter the settings to create the bot: (Most of the options will auto-populate)
 
 1.
   1. Give your bot an appropriate name – (Auto populated - e.g. student200-bot)
@@ -255,7 +255,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 
-j. Click **Create**. In a few minutes, your bot should be created. (Sample Screen below)
+2. Click **Create**. In a few minutes, your bot should be created. (Sample Screen below)
 
 
 
@@ -274,14 +274,14 @@ j. Click **Create**. In a few minutes, your bot should be created. (Sample Scree
 
 
 
-1. In the Azure portal, open the new bot resource from the notification. You can click on &quot;Go to resources&quot;
+2. In the Azure portal, open the new bot resource from the notification. You can click on &quot;Go to resources&quot;
 
 
 ![](./labimages/image35.PNG "image35")
 
 
 
-1. Under **Bot Management** , select **Test in Web Chat**.
+3. Under **Bot Management** , select **Test in Web Chat**.
 
 
 ![](./labimages/image36.PNG "image36")
@@ -293,26 +293,26 @@ At the chat prompt of **Type your message** , enter: Major ocrans
 
 ![](./labimages/image36a.PNG "image36a")
 
-1. The chat bot responds with an answer from your knowledge base.
-2. Notice the spelling mistake in oceans, your bot is smart enough to understand that.
-3. Did you notice you did not have to type the entire question?
+4. The chat bot responds with an answer from your knowledge base.
+5. Notice the spelling mistake in oceans, your bot is smart enough to understand that.
+6. Did you notice you did not have to type the entire question?
 
 
 ![](./labimages/image37.PNG "image37")
 
-1. Under **Bot Management** , select **Channels**.
-2. Click on Edit in Webchat
+7. Under **Bot Management** , select **Channels**.
+8. Click on Edit in Webchat
 
 
 ![](./labimages/image38.PNG "image38")
 
-1. Click on &quot;Show&quot; under Secret Keys
+9. Click on &quot;Show&quot; under Secret Keys
 
 
 ![](./labimages/image38a.PNG "image38a")
 
 
-1. Copy **Embed code** in a separate notepad.
+10. Copy **Embed code** in a separate notepad.
 
 
 ![](./labimages/image39.PNG "image39")
@@ -321,22 +321,22 @@ At the chat prompt of **Type your message** , enter: Major ocrans
 
 
 
-1. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
+11. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
 
 ![](./labimages/image41.PNG "image41")
 
 
 
-1. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
+12. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
 
 ![](./labimages/image42.PNG "image42")
 
-1. Double click on the saved file and it will open in the browser. This is your ChatBot,
+13. Double click on the saved file and it will open in the browser. This is your ChatBot,
 
 ![](./labimages/image43.PNG "image43")
 
-1. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
-2. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
-3. Go to My Knowledge base, select **OceanFAQ**
+14. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
+15. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
+16. Go to My Knowledge base, select **OceanFAQ**
 
 ![](./labimages/image44.PNG "image44")
