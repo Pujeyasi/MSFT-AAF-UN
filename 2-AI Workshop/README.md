@@ -66,12 +66,14 @@ Provide these details to create the QnA Maker service:
 
 ![](./labimages/image13.png "image13")
 
+![](./labimages/image14.png "image14")
+
 ## **Connect the QnA Maker service to the knowledge base**
 
 1. Return to the QnA Maker web portal tab  ( [ai](https://qnamaker.ai/)) and refresh the page.
 
 
-![](./labimages/image14.png "image14")
+
 
 
 2. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
