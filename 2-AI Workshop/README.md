@@ -241,16 +241,15 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 5. Enter the settings to create the bot: (Most of the options will auto-populate)
 
-1.
-  1. Give your bot an appropriate name – (Auto populated - e.g. student200-bot)
-  2. Choose the Subscription service you have been using for this course – (Auto populated - Visual Studio Enterprise Subscription)
-  3. Select the proper Resource Group (Auto populated – e.g. student200)
-  4. Choose the location for the bot. Remember that it&#39;s best to use the same location as your other services (East US)
-  5. Select **$1 (1K Premium Msgs/Unit)** pricing tier
-  6. The app name should auto-populate (Auto populated - e.g. student200-bot)
-  7. Choose **C#** as the SDK language
-  8. Leave the remaining fields at their default.
-  9. Turn the Application Insights Off
+- Give your bot an appropriate name – (Auto populated - e.g. student200-bot)
+- Choose the Subscription service you have been using for this course – (Auto populated - Visual Studio Enterprise Subscription)
+- Select the proper Resource Group (Auto populated – e.g. student200)
+- Choose the location for the bot. Remember that it's best to use the same location as your other services (East US)
+- Select **$1 (1K Premium Msgs/Unit)** pricing tier
+- The app name should auto-populate (Auto populated - e.g. student200-bot)
+- Choose **C#** as the SDK language
+- Leave the remaining fields at their default.
+- Turn the Application Insights Off
 
 
 
