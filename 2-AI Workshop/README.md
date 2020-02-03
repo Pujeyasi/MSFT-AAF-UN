@@ -74,17 +74,17 @@ Provide these details to create the QnA Maker service:
 
 
 This is where Picture 14 goes
-![](./labimages/images14a.png "image14")
+![](./labimages/images14a.PNG "image14")
 
 
 2. On the QnA Maker portal, select **Create a knowledge base** from the top menu.
 
 
-![](./labimages/image15a.png "image15")
+![](./labimages/image15a.PNG "image15")
 
 
 
-1. The entries under (shown in the pic below) won&#39;t be filled in, but a link to the account information will be populated.
+3. The entries under (shown in the pic below) won&#39;t be filled in, but a link to the account information will be populated.
 
 
 ![](./labimages/image16.png "image16")
