@@ -32,9 +32,9 @@ Unless you already have a knowledge base (KB), the portal will point out that yo
 
 Provide these details to create the QnA Maker service:
 
-1. a)Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you&#39;ll be using it later.
-2. b)Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
-3. c)Select the **S0** pricing tier for the service.
+  1. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you&#39;ll be using it later.
+  2. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
+  3. Select the **S0** pricing tier for the service.
 
 ![](./labimages/image7.png "image7")
 
