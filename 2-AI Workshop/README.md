@@ -9,7 +9,7 @@ Let's create a QnA Maker knowledge base (KB).
 
 ![](./labimages/image1.png "image1")
  
-3. Unless you already have a knowledge base (KB), the portal will point out that you don&#39;t have any.
+3. Unless you already have a knowledge base (KB), the portal will point out that you don't have any.
 
 ![](./labimages/image2.PNG "image2")
 
@@ -32,25 +32,25 @@ Let's create a QnA Maker knowledge base (KB).
 
 Provide these details to create the QnA Maker service:
 
-1. Enter a globally unique name for your QnA Maker service, such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you'll be using it later.
-2. Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
-3. Select the **S0** pricing tier for the service.
+1. **Name:** such as _yourname-qna_. (e.g. student200-qna) Make a note of this name as you'll be using it later.
+2. **Subscription:** Select your Azure subscription. (Visual Studio Enterprise Subscription or  Azure Subscription 1)
+3. **Pricing Tier:**  Select the **S0** pricing tier for the service.
 
 ![](./labimages/image7.png "image7")
 
-4. Select a location for the service, which should be the same region as the bot service, and near your physical location.
-5. Select the resource group from the drop down. (e.g. student200)
-6. Select **B (15 Indexes)**, the free tier, for the search pricing
+4. **Resource Group:** Select the resource group from the drop down. (e.g. student200)
+5. **Azure Search Pricing Tier:**  Select **B (15 Indexes)**, the free tier, for the search pricing
 
 ![](./labimages/image8.png "image8")
 
-7. For the search location, select the location **East US**.
-8. Verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
+6. **Azure Search Location:**  Select a location for the service, which should be the same region as the bot service, and near your physical location. For the search location, select the location **East US**.
+7. **App Name:** Enter a name without spaces and verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
 
 ![](./labimages/image9.PNG "image9")
 
-9. Select the location for the website, which should match the location you used earlier. Select **East US**
-10. You won&#39;t be using Application Insights for this test, so **disable**** App insights**.
+9. **Website Location:** Select the location for the website, which should match the location you used earlier. Select **East US**,this should mtach you used in the step 6.
+
+10. You won't be using Application Insights for this test, so **disable**** App insights**.
 
 ![](./labimages/image10.PMG "image10")
 
