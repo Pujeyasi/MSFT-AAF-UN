@@ -7,7 +7,7 @@
 | AI Workshop  | Hololens Workshop  | Elevator Pitch  |
 | Elevator Pitch | AI Workshop    |Hololens Workshop  
 | Hololens Workshop  | Elevator Pitch  | AI Workshop  |
-| 
+|
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       Panel Discussion   
 
 
