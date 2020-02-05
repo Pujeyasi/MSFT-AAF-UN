@@ -47,16 +47,20 @@ Provide these details to create the QnA Maker service:
 7. **App Name:** Enter a name without spaces and verify that the app name is unique. (If it is, it will be marked with a green check mark.) (e.g. student200)
 
 ![](./labimages/image9.PNG "image9")
+
 8. **Website Location:** Select the location for the website, which should match the location you used earlier. Select **East US**,this should mtach you used in the step 6.
 
 9. You won't be using Application Insights for this test, so **disable**** App insights**.
 ![](./labimages/image10.PNG "image10")
+
 10.  Select **Create**. (at the bottom of the page)
 
 ![](./labimages/image11.png "image11")
+
 11. After a brief deployment process, your resource will be created for the service.
 
 ![](./labimages/image12.png "image12")
+
 12. Wait till your deployment is complete
 
 ![](./labimages/image13.png "image13")
