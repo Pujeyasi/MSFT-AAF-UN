@@ -180,7 +180,7 @@ In the upper right, select **Save and train** to save your edits and train the Q
 
 6. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
 7. Select Test again to close the Test panel.
-8. Optional: Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
+8. **Optional:** Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
 
 ![](./labimages/image25a.PNG "image25a")
 
@@ -204,52 +204,39 @@ Now that you&#39;ve created a QnA knowledge base, it&#39;s time to publish it so
 3. Select **Publish**.
 4. After a short time, a success message will appear (if no errors occur).
 5. Note the URL information that appears. You can use the information provided to test the KB with Postman or curl.
-6. Copy and paste the Postman code(shown below) on notepad app on your desktop – name it &quot;BotPostman&quot;.
 
 ![](./labimages/image28.png "image28")
 
-7. Close notepad app
-
-Optional: If you need to, you can select **Edit Service** to go back to the KB and make edits.
-
+_Optional:_ If you need to, you can select **Edit Service** to go back to the KB and make edits.
 
 
 ## **Integrate QnA with a bot**
 
 Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time to learn how to integrate it with a bot. In this exercise, you&#39;ll create a chatbot on the Azure to integrate with the QnA Maker knowledge base you created earlier.
 
-1. In the QnA Maker portal, go to the Publish page, and publish your knowledge base, if it is not already published.
-2. Select Create Bot.
+1. Click **Create Bot.**
 
 ![](./labimages/image29.PNG "image29")
 
-
-
-3. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
-
-
+2. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
 ![](./labimages/image30.PNG "image30")
 
-
-
-4. You should see the following screen, which is the Azure Portal.
+3. You should see the following screen, which is the Azure Portal.
 
 ![](./labimages/image31.png "image31")
 
+4. Enter the settings to create the bot: (Most of the options will auto-populate)
 
-
-5. Enter the settings to create the bot: (Most of the options will auto-populate)
-
- - Give your bot an appropriate name – (Auto populated - e.g. student200-bot)
- - Choose the Subscription service you have been using for this course – (Auto populated - Visual Studio Enterprise Subscription)
- - Select the proper Resource Group (Auto populated – e.g. student200)
- - Choose the location for the bot. Remember that it's best to use the same location as your other services (East US)
- - Select **$1 (1K Premium Msgs/Unit)** pricing tier
- - The app name should auto-populate (Auto populated - e.g. student200-bot)
- - Choose **C#** as the SDK language
- - Leave the remaining fields at their default.
- - Turn the Application Insights Off
+•	**Bot handle:** (Auto populated - e.g. student200-bot)
+•	Subscription: (Auto populated - Visual Studio Enterprise Subscription or Azure Subscription 1)
+•	**Resource Group:** (Auto populated – e.g. student200)
+•	**Location:** Use the drop down to select the location as your other services (East US) 
+•	**Pricing tier:** Select $1 (1K Premium Msgs/Unit) pricing tier
+•	**App name:** (Auto populated - e.g. student200-bot)
+•	Choose **C#** as the SDK language
+•	Leave the remaining fields at their default.
+•	Turn the Application Insights **Off**
 
 
 …………………………..Picture32..better pic
