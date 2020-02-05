@@ -315,7 +315,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 ![](./labimages/image43.PNG "image43")
 
 15. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
-16. You can go back to your **Knowledge Base** in (https://qnamaker.ai/)  portal,  and add more questions.
+16. You can go back to your **Knowledge Base** in [QnA Maker portal](https://www.qnamaker.ai/?).  ([ai](https://qnamaker.ai/)) and add more questions.
 17. Go to My Knowledge base, select **OceanFAQ**
 
 ![](./labimages/image44.PNG "image44")
