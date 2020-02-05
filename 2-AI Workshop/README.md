@@ -176,7 +176,7 @@ In the upper right, select **Save and train** to save your edits and train the Q
 - Arctic
 - Southern
 
-![](./labimages/image25a.png "image25")
+![](./labimages/image25.png "image25")
 
 6. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
 7. Select Test again to close the Test panel.
