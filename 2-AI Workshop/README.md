@@ -88,17 +88,19 @@ Provide these details to create the QnA Maker service:
 
 
 
-4. Select your Azure Directory ID, subscription name, and the name of the new QnA service you created earlier in the portal. (e.g. student200)
-
-5.   Give your knowledge base a name under STEP 3. We&#39;ll use the Ocean FAQ, so you can name it OceanFAQ.
+4. **Microsoft Azure Directory ID:** Select your Azure Directory ID from the drop down
+5. **Azure Subscription name:** Select subscription name from the drop down
+6. **Azure QnA service:**  select the name of the new QnA service you created earlier in the portal. (e.g. student200) 
+7. **Language:** Select English
+8. Scroll down to **STEP 3**
+9. **Name your KB:**  We'll use the Ocean FAQ, so you can name it OceanFAQ.
 
 ![](./labimages/image17.PNG "image17")
 
 
-
 ## **Populate the knowledge base**
 
-We need some data for our KB. We&#39;ll use an existing FAQ as a sample
+Scoll down to **STEP 4.** We need some data for our KB. We'll use an existing FAQ as a sample
 
 1. Add a sample word document as a URL:
 
@@ -112,8 +114,10 @@ We need some data for our KB. We&#39;ll use an existing FAQ as a sample
 
 ![](./labimages/image19.PNG "image19")
 
-4. Add _ **Enthusiastic** _ **Chit-chat** to your KB.
-5. Select **Create your KB**.
+4.	Scroll down to the **Chit-chat** section
+5.	Select **Enthusiastic** Chit-chat to your KB.  
+6.	Select **Create your KB**.
+
 
 ![](./labimages/image20.PNG "image20")
 
