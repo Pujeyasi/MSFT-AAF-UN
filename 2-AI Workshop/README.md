@@ -121,11 +121,11 @@ Scoll down to **STEP 4.** We need some data for our KB. We'll use an existing FA
 
 ![](./labimages/image20.PNG "image20")
 
-Please note that the extraction process takes a few minutes to read the document and identify questions and answers.
+_Please note that the extraction process takes a few minutes to read the document and identify questions and answers._
 
-After QnA Maker successfully creates the knowledge base, the **Knowledge base** page opens. You can edit the contents of the knowledge base on this page.
+_After QnA Maker successfully creates the knowledge base, the **Knowledge base** page opens. You can edit the contents of the knowledge base on this page._
 
-After a short time, your Knoledge Base will be created, and the Edit page will load.
+_After a short time, your Knoledge Base will be created, and the Edit page will load._
 
 ## **Add a new question and answer set**
 
@@ -143,9 +143,7 @@ What are the 5 major oceans?
 
 ![](./labimages/image22.PNG "image22")
 
-Just for your knowledge: The markdown symbol, \*, is used for bullet points. The \n is used for a new line.
-
-Just for your knowledge: The **Edit** page shows the markdown. When you use the **Test** panel later, you will see the markdown displayed properly as shown below.
+_Just for your knowledge: The markdown symbol, \*, is used for bullet points. The \n is used for a new line. The **Edit** page shows the markdown. When you use the **Test** panel later, you will see the markdown displayed properly as shown below._
 
 - Pacific
 - Indian
