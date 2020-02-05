@@ -180,7 +180,7 @@ In the upper right, select **Save and train** to save your edits and train the Q
 
 6. You can continue to test the interaction by asking questions and evaluating the responses to get an idea of how the QnA KB is polled for answers.
 7. Select Test again to close the Test panel.
-8. **Optional:** Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
+8. _Optional:_ Be creative when testing the process. Input other editorial pairs. You can even add alternate phrasing by clicking on the three dots in one of the input boxes and adding content.
 
 ![](./labimages/image25a.PNG "image25a")
 
@@ -199,7 +199,6 @@ Now that you&#39;ve created a QnA knowledge base, it&#39;s time to publish it so
 ![](./labimages/image27.PNG "image27")
 
 
-
 2. Read the message on the next page. It indicates that your KB will move from test to production. It also points out that your KB will be available as an endpoint that you can use in apps and bots.
 3. Select **Publish**.
 4. After a short time, a success message will appear (if no errors occur).
@@ -214,10 +213,9 @@ _Optional:_ If you need to, you can select **Edit Service** to go back to the KB
 
 Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time to learn how to integrate it with a bot. In this exercise, you&#39;ll create a chatbot on the Azure to integrate with the QnA Maker knowledge base you created earlier.
 
-1. Click **Create Bot.**
-
 ![](./labimages/image29.PNG "image29")
 
+1. Click **Create Bot.**
 2. The Azure portal opens with the &quot;Web app bot&quot; configuration in a different tab. If any free recommendation advertisement opens – close that window by clicking on x. (shown below)
 
 ![](./labimages/image30.PNG "image30")
@@ -228,15 +226,15 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 4. Enter the settings to create the bot: (Most of the options will auto-populate)
 
-•	**Bot handle:** (Auto populated - e.g. student200-bot)
-•	Subscription: (Auto populated - Visual Studio Enterprise Subscription or Azure Subscription 1)
-•	**Resource Group:** (Auto populated – e.g. student200)
-•	**Location:** Use the drop down to select the location as your other services (East US) 
-•	**Pricing tier:** Select $1 (1K Premium Msgs/Unit) pricing tier
-•	**App name:** (Auto populated - e.g. student200-bot)
-•	Choose **C#** as the SDK language
-•	Leave the remaining fields at their default.
-•	Turn the Application Insights **Off**
+ - **Bot handle:** (Auto populated - e.g. student200-bot)
+ - **Subscription:** (Auto populated - Visual Studio Enterprise Subscription or Azure Subscription 1)
+ - **Resource Group:** (Auto populated – e.g. student200)
+ - **Location:** Use the drop down to select the location as your other services (East US) 
+ - **Pricing tier:** Select $1 (1K Premium Msgs/Unit) pricing tier
+ - **App name:** (Auto populated - e.g. student200-bot)
+ - Choose **C#** as the SDK language
+ - Leave the remaining fields at their default.
+ -  Turn the Application Insights **Off**
 
 
 …………………………..Picture32..better pic
@@ -244,9 +242,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 - Click **Create**. In a few minutes, your bot should be created. (Sample Screen below)
 
-
 ![](./labimages/image33.PNG "image33")
-
 
 
 ## **Chat with the Bot**
@@ -255,8 +251,6 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 ![](./labimages/image34.PNG "image34")
-
-
 
 
 
@@ -272,7 +266,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 ![](./labimages/image36.PNG "image36")
 
-4. At the chat prompt of **Type your message** , enter: Major ocrans
+4. At the chat prompt of **Type your message** , enter: **Major ocrans**
 
 
 
@@ -306,13 +300,13 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 
 
 
-12. In the notepad where you have pasted the Embed code. Replace the wording &quot;YOUR\_SECRET\_HERE&quot; the first Secret Key. (make sure to include the single quote as shown below)
+12.	In the notepad, Replace the wording **“YOUR_SECRET_HERE”** in the Embed code with the first Secret Key ( _**Make sure to include the single quote as shown below**_)
 
 ![](./labimages/image41.PNG "image41")
 
 
 
-13. Save the notepad File name: mybot.htm in your desktop. Save as type: All Files
+13. Save the notepad File name: **mybot.htm** in your desktop. Save as type: All Files
 
 ![](./labimages/image42.PNG "image42")
 
@@ -321,7 +315,7 @@ Now that you&#39;ve created and published your QnA knowledge base, it&#39;s time
 ![](./labimages/image43.PNG "image43")
 
 15. At the chat prompt of **Type your message.** The chat bot responds with an answer from your knowledge base.
-16. You can go back to your **Knowledge Base** in [ai](https://qnamaker.ai/) portal,  and add more questions.
+16. You can go back to your **Knowledge Base** in (https://qnamaker.ai/)  portal,  and add more questions.
 17. Go to My Knowledge base, select **OceanFAQ**
 
 ![](./labimages/image44.PNG "image44")
